@@ -1,0 +1,53 @@
+.icon{
+	width: 25px;
+	height:25px;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-left: 300px;
+	padding-right: 300px;
+	text-align: center;
+
+
+}
+#form{
+	background-image: url(https://pngimage.net/wp-content/uploads/2018/05/app-background-png-5.png);
+	border-width: 30%;
+	border-style: solid;
+	border-image-width: 50%;
+	padding: 10px 270px 10px 270px;
+	margin: auto;
+	border-radius: 30px;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px;
+  background: #f1f1f1;
+}
+
+button {
+  background-color: 1175CB ;
+  color: black;
+  font-weight: bold;
+  font-size: 100%;
+  padding: 14px 15px ;
+  margin: 8px; 
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity:1;
+}
+
+#login_registr{
+	display:inline-block;
+}

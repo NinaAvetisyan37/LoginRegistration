@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration page</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form id="form">
+		
+		<p><b>Account</b></p>
+		<div id="name"> 
+			<img class="icon" src="https://eitrawmaterials.eu/wp-content/uploads/2016/09/person-icon.png" alt="icon_people">
+			<input type="text" name="name" placeholder="Full Name">
+		</div>
+		
+		
+		<div id="email">
+			<img class="icon" src="https://static.vecteezy.com/system/resources/previews/000/581/764/non_2x/email-icon-vector-illustration.jpg" alt="icon_mail">
+			<input type="text" name="email" placeholder="Email Address"  pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required>
+		</div>
+		
+		
+		<div id="password">
+			<img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShrUS-mrugBYKvpZBbB-rwJihaZwkktY8SBlYeJ_IFdtDXA9hA&usqp=CAU" alt="icon_password">
+			<input type="text" name="password" placeholder="Password">
+		</div>
+		
+		
+		<div id="confirm_password">
+			<img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShrUS-mrugBYKvpZBbB-rwJihaZwkktY8SBlYeJ_IFdtDXA9hA&usqp=CAU" alt="icon_password">
+			<input type="text" name="confirm_password" placeholder="Confirm Password">
+		</div>
+
+		
+		<div>
+			<p><b>Date of Birth</b></p>	
+			<input type="Date">
+		</div>	
+
+	
+		<div>
+			<p><b>Gender</b></p>	
+			<input type="radio" name="gender" value="male">
+			<label>Male</label>
+  			<input type="radio" name="gender" value="female">
+			<label>Female</label><br>
+		</div>	
+
+	
+		<div>
+			<p><b>Phone Number</b></p>
+			<img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/1200px-Flag_of_Armenia.svg.png" alt="Flag_of_Armenia">
+			<input type="text" name="Phone" placeholder="A phone number is required to recovery access." pattern="^\d{8}" required>
+		</div>
+
+
+		<div id=login_registr>
+			<button type="submit" value="Submit" id="button">Register</button>
+			<a href="login.html">Log In</a>
+		</div>
+	</form>
+	
+</body>
+</html>
